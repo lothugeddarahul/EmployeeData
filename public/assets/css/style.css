@@ -1,0 +1,66 @@
+/* Style.css
+ * Custom Stylings 
+ *
+ * Copyrights by SIQ
+ * Rahul | @2017
+ */
+
+.main-header{
+    height: 90px;
+    background-color: #007078;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.main-header a.logo{
+	padding: 0 10px;
+}
+
+.main-header .user-links{
+	padding: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.user-links > li{
+	display: inline-block;
+}
+.user-links > li a{
+	display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.user-links > li a:hover{
+	color: #ddd;
+
+}
+
+#main-container{
+	margin-bottom: 50px;
+}
+.main-banner{
+    margin-bottom: 20px;
+}
+.main-content{
+	width: 786px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+
+.main-footer .footer-content{
+	padding: 20px;
+    margin-top: 170px;
+    border-top: 1px solid #eee;
+}
+
+
+
+
+
+
+
+
+
