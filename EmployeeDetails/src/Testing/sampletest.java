@@ -12,8 +12,8 @@ public class sampletest {
 		System.setProperty("webdriver.chrome.driver", "/Users/siq/Downloads/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://localhost:3000");
-		String empname ="Shantharam";
-		String empid ="101";
+		String empname ="Sanjay";
+		String empid ="102";
 		driver.findElement(By.name("emp_name")).sendKeys(empname);
 		driver.findElement(By.name("emp_id")).sendKeys(empid);		
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
